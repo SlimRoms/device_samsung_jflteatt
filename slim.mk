@@ -30,3 +30,4 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SGH-I337
 PRODUCT_MANUFACTURER := Samsung
 
+TARGET_CUSTOM_RELEASETOOL := $(ANDROID_BUILD_TOP)/device/samsung/jflteatt/tools/squisher
