@@ -12,10 +12,6 @@ $(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
 # Inherit some common SLIM stuff.
 $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
-
-# Inherit device settings
-$(call inherit-product, vendor/slim/config/common_sgs.mk)
-
 # Inherit torch settings
 $(call inherit-product, vendor/slim/config/common_ledflash.mk)
 
